@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- daisy ui -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./private/styles/style.css" />
+    <title>Landing Page Project 1</title>
+  </head>
+  <body>
+    <div class="container w-[1440px]">
+      <nav class="flex p-4 justify-between items-center w-screen">
+        <div class="flex items-center gap-2">
+          <img
+            src=""
+            alt="B"
+            class="h-12 w-12 rounded-full bg-red-100 bg-cover"
+          />
+          <span class="text-2xl letter">MahesaAkml</span>
+        </div>
+        <div class="nav-menu flex gap-8 items-center">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+          <a href="#">Blog</a>
+          <a href="#">Project</a>
+          <button class="btn btn-secondary">Sign In</button>
+        </div>
+      </nav>
+
+      <main class="relative bg-slate-700 w-screen">
+        <!-- Komponen kecil (melayang di belakang gambar) -->
+        <span class="absolute top-10 left-10 text-white z-10">HELLO WORLD</span>
+        <div class="absolute bottom-10 right-10 text-white z-10">
+          Component lain
+        </div>
+        <img src="./private/img/bg-1.png" alt="" class="" />
+      </main>
+    </div>
+  </body>
+</html>
