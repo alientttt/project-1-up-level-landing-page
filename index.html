@@ -93,19 +93,51 @@
         />
       </main>
 
-      <main class="relative w-screen bg-slate-100 h-[700px] overflow-hidden rounded-3xl">
-        <div class="care p-4 bg-red-100 flex justify-between items-center">
-          <img src="./private/img/com-1 (1).jpeg" alt="" class="w-48 rounded-lg">
-          <img src="./private/img/com-1 (2).jpeg" alt="" class="w-48 rounded-lg">
-          <img src="./private/img/com-1 (3).jpeg" alt="" class="w-48 rounded-lg">
-          <img src="./private/img/com-1 (4).jpeg" alt="" class="w-48 rounded-lg">
-          <img src="./private/img/com-1 (5).jpeg" alt="" class="w-48 rounded-lg">
-          <img src="./private/img/com-1 (6).jpeg" alt="" class="w-48 rounded-lg">
+      <main class="relative w-screen bg-slate-100 min-h-screen p-6">
+      <!-- Gambar Carousel -->
+        <div class="care p-4 bg-red-100 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-8">
+          <img src="./private/img/com-1 (1).jpeg" alt="" class="w-full rounded-lg object-cover">
+          <img src="./private/img/com-1 (1).jpeg" alt="" class="w-full rounded-lg object-cover">
+          <img src="./private/img/com-1 (1).jpeg" alt="" class="w-full rounded-lg object-cover">
+          <img src="./private/img/com-1 (1).jpeg" alt="" class="w-full rounded-lg object-cover">
+          <img src="./private/img/com-1 (1).jpeg" alt="" class="w-full rounded-lg object-cover">
+          <img src="./private/img/com-1 (1).jpeg" alt="" class="w-full rounded-lg object-cover">
         </div>
-        <div class="absolute"><p class="text-4xl font-bold w-80 bg-red-100">Today best deals for you!</p></div>
-        <div class="absolute right-[5%]"><p>SEE ALL PRODUCTS &laquo;</p></div>
 
-      </main>
+        <!-- Judul -->
+        <div class="mb-6">
+          <p class="text-3xl md:text-4xl font-bold">Today best deals for you!</p>
+        </div>
+
+        <!-- Tautan lihat semua -->
+        <div class="text-right mb-6">
+          <p class="text-sm md:text-base text-blue-600 cursor-pointer">SEE ALL PRODUCTS &laquo;</p>
+        </div>
+
+        <!-- Kartu Produk -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+          <!-- Card -->
+          <div class="bg-white rounded-xl shadow p-2 flex flex-col items-center">
+            <img src="./private/img/com-1 (3).jpeg" alt="" class="rounded-xl w-full h-40 object-cover">
+            <div class="w-full text-center mt-3">
+              <p class="font-semibold">TEXT</p>
+              <span class="block text-sm text-gray-600 mb-2">Hello World</span>
+              <button class="btn btn-outline w-full">Default</button>
+            </div>
+          </div>
+
+          <!-- Duplikat Card -->
+          <div class="bg-white rounded-xl shadow p-2 flex flex-col items-center">
+            <img src="./private/img/com-1 (3).jpeg" alt="" class="rounded-xl w-full h-40 object-cover">
+            <div class="w-full text-center mt-3">
+              <p class="font-semibold">TEXT</p>
+              <span class="block text-sm text-gray-600 mb-2">Hello World</span>
+              <button class="btn btn-outline w-full">Default</button>
+            </div>
+          </div>
+
+  </div>
+</main>
 
 
     </div>
